@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: rgb(33, 33, 33);
+    background: rgb(255, 255, 255)
 }
 
 .list {
@@ -8,10 +10,6 @@ body {
 
 .link {
     text-decoration: none;
-}
-
-.header {
-    background: rgb(255, 255, 255);
 }
 
 .logo-header {
@@ -31,7 +29,14 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #212121; 
+    color: rgb(33, 33, 33);
+}
+
+.header-item-now {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
 }
 
 .header-item:hover {
@@ -63,6 +68,7 @@ body {
 
 .button {
     color: rgb(255, 255, 255);
+    background-color: #2196F3;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 700;
@@ -72,12 +78,7 @@ body {
 
 }
 
-.hero {
-    background: rgb(255, 255, 255);
-}
-
 .hero-item-head {
-    color: rgb(33, 33, 33);
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -92,7 +93,6 @@ body {
 }
 
 .doing-title {
-color: rgb(33, 33, 33);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -105,7 +105,6 @@ color: rgb(33, 33, 33);
 }
 
 .team-title {
-    color: rgb(33, 33, 33);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -114,7 +113,6 @@ color: rgb(33, 33, 33);
 
 
 .team-name {
-    color: rgb(33, 33, 33);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
@@ -145,6 +143,7 @@ font-family: "Raleway", sans-serif;
 
 .address-link {
     color: rgb(255, 255, 255, 0.6); 
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -156,6 +155,7 @@ font-family: "Raleway", sans-serif;
 }
 .address-map {
     color: rgb(255, 255, 255);
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -169,7 +169,6 @@ font-family: "Raleway", sans-serif;
 /* portfolio */
 
 .menu-button {
-    color: rgb(33, 33, 33);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -179,10 +178,10 @@ font-family: "Raleway", sans-serif;
 }
 .menu-button:hover {
     color: rgb(255, 255, 255);
+    background-color: #2196F3;
 }
 
 .work-title {
-    color: rgb(33, 33, 33);
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
@@ -195,4 +194,8 @@ font-family: "Raleway", sans-serif;
         font-weight: 400;
         line-height: 1.875;
         letter-spacing: 0.03em;
+}
+
+.menu-link {
+    color: rgb(33, 33, 33);
 }
